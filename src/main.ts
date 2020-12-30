@@ -5,7 +5,7 @@ const app = new App({
 });
 
 //appends scripts to the end of de file
-document.body.innerHTML += `<script type="text/javascript" src="/js/materialize.min.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>`;
+document.body.innerHTML += `<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>`;
 
 export default app;
