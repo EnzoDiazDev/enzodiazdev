@@ -5,7 +5,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv docs",
-    "validate": "svelte-check"
+    "validate": "svelte-check",
+    "deploy": "node deploy.js"
   },
   "repository": {
     "type": "git",
