@@ -1,5 +1,5 @@
 {
-  "name": "REPO",
+  "name": "enzodiazdev",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/REPO.git"
+    "url": "git+https://github.com/EnzoDiazDev/EnzoDiazDev.git"
   },
   "author": "Enzo Diaz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OWNER/REPO/issues"
+    "url": "https://github.com/EnzoDiazDev/EnzoDiazDev/issues"
   },
-  "homepage": "https://github.com/OWNER/REPO#readme",
+  "homepage": "https://github.com/EnzoDiazDev/EnzoDiazDev#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
