@@ -1,5 +1,5 @@
-<a href="https://enzodiaz.dev"><img align="left" height="30px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/public/resources/enzodiazdev.svg"></img></a>
-<a href="https://medium.com/@EnzoDiazDev"><img align="right" width="35px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/public/resources/medium.png"></img></a>
+<a href="https://enzodiaz.dev"><img align="left" height="30px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/docs/resources/enzodiazdev.svg"></img></a>
+<a href="https://medium.com/@EnzoDiazDev"><img align="right" width="35px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/docs/resources/medium.png"></img></a>
 <br>
 
 ### Programador Javascript, desarrollador HTML y CSS. 
