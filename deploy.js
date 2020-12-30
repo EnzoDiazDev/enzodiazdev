@@ -10,10 +10,22 @@ function run(command){
 }
 
 async function main(){
-    await run("npm run build");
-    await run("git add .");
-    await run("git commit -am \"autodeploy\"");
-    await run("git push origin main");
+    await run("npm run build")
+        .then(console.log)
+        .catch(console.error);
+
+    await run("git add .")
+        .then(console.log)
+        .catch(console.error);
+
+    await run("git commit -am \"autodeploy\"")
+        .then(console.log)
+        .catch(console.error);
+
+    await run("git push origin main")
+        .then(console.log)
+        .catch(console.error);
+
 }
 
 main();
