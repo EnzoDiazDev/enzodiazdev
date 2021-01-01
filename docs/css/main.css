@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-	color: #333;
+	color: #24292e;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -37,7 +37,78 @@ h1, h2, h3, h4, h5, h6 { transition: font-size 0.05s } /* Añade una pequeña tr
 input[type="text"] + label { pointer-events: none } /* Corrige un defecto en los inputs de MaterializeCSS */
 
 /* MAIN */
+header i {
+    font-size: 2.28rem;
+    line-height: unset;
+}
 
+.page-container {
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid #eaecef;
+    padding: 0 40px;
+    min-height: 100vh;
+}
+
+header {
+    margin: 40px 0;
+    position: relative;
+    display: grid !important;
+    grid-template-columns: min-content minmax(max-content, auto) min-content;
+    grid-template-rows: min-content;
+    align-items: center;
+    column-gap: 40px;
+}
+
+header .avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("https://www.nespthreatenedspecies.edu.au/media/lbxliyag/no-photo-for-bio.jpg");
+    background-color:#eaecef;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #eaecef;
+}
+
+header h4 {
+    margin: 0;
+}
+
+#icon.icon-list {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(3, 40px);
+    gap: 10px;
+}
+
+#icon div {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: 1px solid #eaecef;
+    background-color: #eaecef;
+    box-sizing: content-box;
+}
+
+#icon a {
+    height: inherit;
+}
+
+#icon img {
+    height: inherit;
+    border-radius: 50%;
+}
+
+#icon div:hover {
+    box-shadow: 0 0 3px -1px rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width: 470px){
+    .icon-list {
+        display: none !important;
+    }
+}
 
 /* @MEDIA SCREEN */
 @media only screen and (max-width: 601px){

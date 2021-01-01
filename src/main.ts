@@ -1,7 +1,7 @@
 import App from "./App.svelte";
 
 const app = new App({
-    target: document.body
+    target: document.getElementById("viewer")
 });
 
 //appends scripts to the end of de file

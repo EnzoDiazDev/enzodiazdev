@@ -106,3 +106,6 @@ dist
 # Project ignores
 .DS_Store
 .vscode
+Header.svelte
+Icon.svelte
+Menu.svelte
