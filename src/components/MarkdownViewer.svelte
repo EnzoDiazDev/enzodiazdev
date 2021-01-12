@@ -1,9 +1,8 @@
 <script lang="ts">
 	import {Viewer} from "bytemd";
-
-	export let article:string;
+	export let content
 </script>
 
 <article class="markdown-body">
-    <Viewer value={article}/>
+		<Viewer value={content}/>
 </article>
