@@ -58,17 +58,19 @@ header {
     grid-template-rows: min-content;
     align-items: center;
     column-gap: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eaecef;
 }
 
 header .avatar {
-    height: 100px;
-    width: 100px;
+    min-height: 128px;
+    min-width: 128px;
     border-radius: 50%;
-    background-image: url("https://www.nespthreatenedspecies.edu.au/media/lbxliyag/no-photo-for-bio.jpg");
+    background-image: url("../resources/avatar.jpg");
     background-color:#eaecef;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid #eaecef;
 }
 
 header h4 {
