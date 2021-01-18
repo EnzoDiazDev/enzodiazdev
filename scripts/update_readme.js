@@ -2,7 +2,7 @@ const {get} = require("axios").default;
 const {readFile, writeFile} = require("fs/promises");
 const TurndownService = require("turndown");
 
-const {turndown} = new TurndownService();
+const tds = new TurndownService();
 
 async function main(){
     /**
@@ -17,7 +17,7 @@ async function main(){
 
     const template = await readFile("./scripts/lastpost.md", { encoding: "utf-8" });
     const with_title = template.replace("title", lastpost.title);
-    const with_content = with_title.replace("content", turndown(lastpost.description.replace(/\n/g,"").slice(0, 550).trim() + "..."));
+    const with_content = with_title.replace("content", tds.turndown(lastpost.description.replace(/\n/g,"").slice(0, 600).trim() + "..."));
     const table = with_content.replace("link", lastpost.link);
 
     const readme = await readFile("./README.md", { encoding: "utf-8" });
