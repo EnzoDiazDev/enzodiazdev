@@ -20,7 +20,7 @@ async function main(){
     const readme = await readFile("./README.md", { encoding: "utf-8" });
     const new_readme = readme.replace(/<!--lpstart--->[\s\S]*<!--lpend--->/, `<!--lpstart--->\n${table}\n<!--lpend--->`);
 
-    await writeFile("./READMETEST.md", new_readme);
+    await writeFile("./README.md", new_readme);
 }
 
 main();
