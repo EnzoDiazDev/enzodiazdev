@@ -12,6 +12,7 @@ Desarrollador independiente. Me gusta el trabajo colaborativo, el código abiert
  * Convirtiendome en un buen maintainer. 🗂️
  * Aprendiendo más de blockchain. :link:
  * Estudiando activamente arquitectura de software. :pencil:
+ * Blogueando sobre arquitecturas en tiempo real 📰
 
 #### Lenguajes
  * HTML5 y CSS
