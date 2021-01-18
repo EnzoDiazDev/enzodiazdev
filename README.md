@@ -24,5 +24,9 @@ Desarrollador independiente. Me gusta el trabajo colaborativo, el código abiert
 y tecnologías como Git y Github, NodeJS, NoSQL, Firebase, HTTP, Socketio, OAuth, JWT, Webhooks, etc. <br>
 también arquitectura, patrones y diseños de software, programación funcional, reactiva, orientada a objetos, y más.
 
+#### Último post
+<!--lpstart--->
+<!--lpend--->
+
 **Contactame**
 * enzodiazdev@gmail.com

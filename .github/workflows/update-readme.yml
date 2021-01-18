@@ -1,0 +1,28 @@
+name: Update readme
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: npm run update-readme
+    - run: |
+        git config user.name enzodiazdev
+        git config user.email enzodiazdev@gmail.com
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "lastpost updated"
+        git push origin main
