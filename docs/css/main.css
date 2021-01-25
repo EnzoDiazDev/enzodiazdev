@@ -35,7 +35,9 @@ body {
 .toUpperCase { text-transform: uppercase } /* Transforma el texto en mayúsculas */
 h1, h2, h3, h4, h5, h6 { transition: font-size 0.05s } /* Añade una pequeña transición a los cambios de tamaño de los titulos */
 input[type="text"] + label { pointer-events: none } /* Corrige un defecto en los inputs de MaterializeCSS */
-
+h6 {
+    font-weight: bold !important;
+}
 /* MAIN */
 header i {
     font-size: 2.28rem;
@@ -48,6 +50,7 @@ header i {
     border: 1px solid #eaecef;
     padding: 0 40px;
     min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 header {
