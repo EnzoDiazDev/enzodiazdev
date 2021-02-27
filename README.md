@@ -5,7 +5,7 @@
 ### Programador Javascript, desarrollador HTML y CSS. 
 ###### *[why spanish?](https://gist.github.com/EnzoDiazDev/1f98cc8220f333fda42c49edb23728c4)*<br>
 <!--header--->
-Desarrollador independiente. Me gusta el trabajo colaborativo, el código abierto, compartir conocimento, el scripting y la automatización.
+Desarrollador independiente. Me gusta el trabajo colaborativo, el código abierto, compartir conocimiento, el scripting y la automatización.
  * Explorando nuevas tecnologías.🚀
  * Colaborando activamente en [Fazt Community](https://github.com/faztcommunity).👥
  * [Lottie Labs](https://github.com/lottielabs), es mi espacio de experimentos de código.⚙️
