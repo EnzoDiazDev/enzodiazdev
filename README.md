@@ -1,16 +1,10 @@
-<a href="https://enzodiaz.dev"><img align="left" height="30px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/docs/resources/enzodiazdev.svg"></img></a>
-<a href="https://medium.com/@EnzoDiazDev"><img align="right" width="35px" src="https://raw.githubusercontent.com/EnzoDiazDev/EnzoDiazDev/main/docs/resources/medium.png"></img></a>
-<br>
-
 ### Programador Javascript, desarrollador HTML y CSS. 
-###### *[why spanish?](https://gist.github.com/EnzoDiazDev/1f98cc8220f333fda42c49edb23728c4)*<br>
 <!--header--->
 Desarrollador independiente. Me gusta el trabajo colaborativo, el código abierto, compartir conocimiento, el scripting y la automatización.
  * Explorando nuevas tecnologías.🚀
  * Colaborando activamente en [Fazt Community](https://github.com/faztcommunity).👥
- * [Lottie Labs](https://github.com/lottielabs), es mi espacio de experimentos de código.⚙️
+ * Cofundador de [Kodefi](https://kodefi.dev/), servicios y consultoría web.⚙️
  * Convirtiendome en un buen maintainer.🗂️
- * Aprendiendo más de blockchain.🔗
  * Estudiando activamente arquitectura de software.✏️
  * Blogueando sobre arquitecturas en tiempo real.📰
 
